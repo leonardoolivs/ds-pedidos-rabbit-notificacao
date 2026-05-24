@@ -1,6 +1,8 @@
 package com.notificacao.entities;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonSetter;
+import com.fasterxml.jackson.annotation.Nulls;
 import com.notificacao.enums.StatusPedido;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
